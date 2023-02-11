@@ -2,6 +2,7 @@ const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
 cypress.run({
+  browser: 'firefox'
   // specs to run here
 })
 .then((results) => {
